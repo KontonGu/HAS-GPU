@@ -76,7 +76,7 @@ If you prefer to use our test scripts, you may skip this part and directly turn 
 $ make has_deploy
 ```
 
-- If you would like to build and push your image, refer to the [Part3 Build HAS-GPU from Scratch](#part-3-build-has-gpu-from-scratch-optional) section (Optional).
+- If you would like to build and push your image, refer to the [Part-4 Build HAS-GPU from Scratch](#part-4-build-has-gpu-from-scratch-optional) section (Optional).
 
 #### 4. Run Experiment Workload
 
