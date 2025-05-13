@@ -1,0 +1,44 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups: [""]
+  resources: ["*"]
+  verbs: ["*"]
+- apiGroups: ["fastgshare.caps.in.tum"]
+  resources: ["*"]
+  verbs: ["*"]
+- apiGroups: ["fastgshare.caps.in.tum"]
+  resources: ["fastpods"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: [""]
+  resources: ["pods", "pods/log", "namespaces", "endpoints"]
+  verbs: ["get", "list", "watch"]

@@ -1,0 +1,3062 @@
+Testing with URL: http://10.109.150.161:8080/function/convnext/predict
+Mode: image
+
+Running request counts-based test
+2025-03-17 13:11:42.470250
+
+Starting request counts-based load test with 50 stages...
+Each stage will run for 5.0 seconds
+URL: http://10.109.150.161:8080/function/convnext/predict
+Mode: image
+[0.000s] Stage 1/50: Setting request rate to 8 requests/second
+Sending 8 requests per second for 5.0 seconds
+Image Request sent at 13:11:42 - Status: 200
+Image Request sent at 13:11:43 - Status: 200
+Image Request sent at 13:11:43 - Status: 200
+Image Request sent at 13:11:43 - Status: 200
+Image Request sent at 13:11:44 - Status: 200
+Image Request sent at 13:11:44 - Status: 200
+Image Request sent at 13:11:44 - Status: 200
+Image Request sent at 13:11:45 - Status: 200
+Image Request sent at 13:11:45 - Status: 200
+Image Request sent at 13:11:45 - Status: 200
+Image Request sent at 13:11:46 - Status: 200
+Image Request sent at 13:11:46 - Status: 200
+Image Request sent at 13:11:46 - Status: 200
+Image Request sent at 13:11:46 - Status: 200
+Image Request sent at 13:11:47 - Status: 200
+Image Request sent at 13:11:47 - Status: 200
+Duration of 5.0 seconds reached. Sent 40 requests.
+Not waiting for requests to complete. Total: 40 requests over 5.0 seconds
+Image Request sent at 13:11:47 - Status: 200
+Image Request sent at 13:11:47 - Status: 200
+Image Request sent at 13:11:47 - Status: 200
+Image Request sent at 13:11:48 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:11:48 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:11:48 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:11:48 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:11:48 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:11:49 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:11:49 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:11:49 - Status: 200
+Image Request sent at 13:11:49 - Status: 200
+Image Request sent at 13:11:50 - Status: 200
+Image Request sent at 13:11:50 - Status: 200
+Image Request sent at 13:11:50 - Status: 200
+Image Request sent at 13:11:51 - Status: 200
+Image Request sent at 13:11:51 - Status: 200
+Image Request sent at 13:11:51 - Status: 200
+Image Request sent at 13:11:51 - Status: 200
+[9.467s] Stage 2/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:11:52 - Status: 200
+Image Request sent at 13:11:52 - Status: 200
+Image Request sent at 13:11:53 - Status: 200
+Image Request sent at 13:11:53 - Status: 200
+Image Request sent at 13:11:53 - Status: 200
+Image Request sent at 13:11:54 - Status: 200
+Image Request sent at 13:11:54 - Status: 200
+Image Request sent at 13:11:55 - Status: 200
+Image Request sent at 13:11:55 - Status: 200
+Image Request sent at 13:11:55 - Status: 200
+Image Request sent at 13:11:56 - Status: 200
+Image Request sent at 13:11:56 - Status: 200
+Image Request sent at 13:11:56 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:11:57 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:11:57 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:11:57 - Status: 200
+Image Request sent at 13:11:58 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:11:58 - Status: 200
+Image Request sent at 13:11:58 - Status: 200
+Image Request sent at 13:11:59 - Status: 200
+Image Request sent at 13:11:59 - Status: 200
+Image Request sent at 13:11:59 - Status: 200
+Image Request sent at 13:12:00 - Status: 200
+[17.632s] Stage 3/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:12:00 - Status: 200
+Image Request sent at 13:12:00 - Status: 200
+Image Request sent at 13:12:01 - Status: 200
+Image Request sent at 13:12:01 - Status: 200
+Image Request sent at 13:12:01 - Status: 200
+Image Request sent at 13:12:02 - Status: 200
+Image Request sent at 13:12:02 - Status: 200
+Image Request sent at 13:12:03 - Status: 200
+Image Request sent at 13:12:03 - Status: 200
+Image Request sent at 13:12:03 - Status: 200
+Image Request sent at 13:12:04 - Status: 200
+Image Request sent at 13:12:04 - Status: 200
+Image Request sent at 13:12:04 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:12:05 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:12:05 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:12:05 - Status: 200
+Image Request sent at 13:12:06 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:12:06 - Status: 200
+Image Request sent at 13:12:06 - Status: 200
+Image Request sent at 13:12:07 - Status: 200
+Image Request sent at 13:12:07 - Status: 200
+Image Request sent at 13:12:07 - Status: 200
+Image Request sent at 13:12:08 - Status: 200
+[25.828s] Stage 4/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:12:08 - Status: 200
+Image Request sent at 13:12:09 - Status: 200
+Image Request sent at 13:12:09 - Status: 200
+Image Request sent at 13:12:09 - Status: 200
+Image Request sent at 13:12:10 - Status: 200
+Image Request sent at 13:12:10 - Status: 200
+Image Request sent at 13:12:11 - Status: 200
+Image Request sent at 13:12:11 - Status: 200
+Image Request sent at 13:12:11 - Status: 200
+Image Request sent at 13:12:12 - Status: 200
+Image Request sent at 13:12:12 - Status: 200
+Image Request sent at 13:12:12 - Status: 200
+Image Request sent at 13:12:13 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:12:13 - Status: 200
+Image Request sent at 13:12:14 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:12:14 - Status: 200
+Image Request sent at 13:12:14 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:12:15 - Status: 200
+Image Request sent at 13:12:15 - Status: 200
+Image Request sent at 13:12:15 - Status: 200
+Image Request sent at 13:12:16 - Status: 200
+Image Request sent at 13:12:16 - Status: 200
+Image Request sent at 13:12:16 - Status: 200
+Image Request sent at 13:12:17 - Status: 200
+[34.633s] Stage 5/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:12:17 - Status: 200
+Image Request sent at 13:12:17 - Status: 200
+Image Request sent at 13:12:18 - Status: 200
+Image Request sent at 13:12:18 - Status: 200
+Image Request sent at 13:12:18 - Status: 200
+Image Request sent at 13:12:19 - Status: 200
+Image Request sent at 13:12:19 - Status: 200
+Image Request sent at 13:12:20 - Status: 200
+Image Request sent at 13:12:20 - Status: 200
+Image Request sent at 13:12:20 - Status: 200
+Image Request sent at 13:12:21 - Status: 200
+Image Request sent at 13:12:21 - Status: 200
+Image Request sent at 13:12:21 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:12:22 - Status: 200
+Image Request sent at 13:12:22 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:12:22 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:12:23 - Status: 200
+Image Request sent at 13:12:23 - Status: 200
+Image Request sent at 13:12:23 - Status: 200
+Image Request sent at 13:12:24 - Status: 200
+Image Request sent at 13:12:24 - Status: 200
+Image Request sent at 13:12:24 - Status: 200
+Image Request sent at 13:12:25 - Status: 200
+Image Request sent at 13:12:25 - Status: 200
+[43.098s] Stage 6/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:12:25 - Status: 200
+Image Request sent at 13:12:26 - Status: 200
+Image Request sent at 13:12:26 - Status: 200
+Image Request sent at 13:12:26 - Status: 200
+Image Request sent at 13:12:27 - Status: 200
+Image Request sent at 13:12:27 - Status: 200
+Image Request sent at 13:12:28 - Status: 200
+Image Request sent at 13:12:28 - Status: 200
+Image Request sent at 13:12:28 - Status: 200
+Image Request sent at 13:12:29 - Status: 200
+Image Request sent at 13:12:29 - Status: 200
+Image Request sent at 13:12:29 - Status: 200
+Image Request sent at 13:12:30 - Status: 200
+Image Request sent at 13:12:30 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:12:30 - Status: 200
+Image Request sent at 13:12:31 - Status: 200
+Image Request sent at 13:12:31 - Status: 200
+Image Request sent at 13:12:31 - Status: 200
+Image Request sent at 13:12:31 - Status: 200
+Image Request sent at 13:12:32 - Status: 200
+Image Request sent at 13:12:32 - Status: 200
+Image Request sent at 13:12:32 - Status: 200
+Image Request sent at 13:12:33 - Status: 200
+Image Request sent at 13:12:33 - Status: 200
+Image Request sent at 13:12:33 - Status: 200
+[51.443s] Stage 7/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:12:34 - Status: 200
+Image Request sent at 13:12:34 - Status: 200
+Image Request sent at 13:12:35 - Status: 200
+Image Request sent at 13:12:35 - Status: 200
+Image Request sent at 13:12:35 - Status: 200
+Image Request sent at 13:12:36 - Status: 200
+Image Request sent at 13:12:36 - Status: 200
+Image Request sent at 13:12:36 - Status: 200
+Image Request sent at 13:12:37 - Status: 200
+Image Request sent at 13:12:37 - Status: 200
+Image Request sent at 13:12:37 - Status: 200
+Image Request sent at 13:12:38 - Status: 200
+Image Request sent at 13:12:38 - Status: 200
+Image Request sent at 13:12:38 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:12:39 - Status: 200
+Image Request sent at 13:12:39 - Status: 200
+Image Request sent at 13:12:39 - Status: 200
+Image Request sent at 13:12:40 - Status: 200
+Image Request sent at 13:12:40 - Status: 200
+Image Request sent at 13:12:40 - Status: 200
+Image Request sent at 13:12:41 - Status: 200
+Image Request sent at 13:12:41 - Status: 200
+Image Request sent at 13:12:41 - Status: 200
+Image Request sent at 13:12:41 - Status: 200
+Image Request sent at 13:12:41 - Status: 200
+[59.496s] Stage 8/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:12:42 - Status: 200
+Image Request sent at 13:12:42 - Status: 200
+Image Request sent at 13:12:42 - Status: 200
+Image Request sent at 13:12:43 - Status: 200
+Image Request sent at 13:12:43 - Status: 200
+Image Request sent at 13:12:43 - Status: 200
+Image Request sent at 13:12:43 - Status: 200
+Image Request sent at 13:12:44 - Status: 200
+Image Request sent at 13:12:44 - Status: 200
+Image Request sent at 13:12:45 - Status: 200
+Image Request sent at 13:12:45 - Status: 200
+Image Request sent at 13:12:45 - Status: 200
+Image Request sent at 13:12:46 - Status: 200
+Image Request sent at 13:12:46 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:12:46 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:12:47 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:12:47 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:12:47 - Status: 200
+Image Request sent at 13:12:48 - Status: 200
+Image Request sent at 13:12:48 - Status: 200
+Image Request sent at 13:12:49 - Status: 200
+Image Request sent at 13:12:49 - Status: 200
+Image Request sent at 13:12:49 - Status: 200
+Image Request sent at 13:12:49 - Status: 200
+[67.479s] Stage 9/50: Setting request rate to 7 requests/second
+Sending 7 requests per second for 5.0 seconds
+Image Request sent at 13:12:50 - Status: 200
+Image Request sent at 13:12:50 - Status: 200
+Image Request sent at 13:12:51 - Status: 200
+Image Request sent at 13:12:51 - Status: 200
+Image Request sent at 13:12:52 - Status: 200
+Image Request sent at 13:12:52 - Status: 200
+Image Request sent at 13:12:52 - Status: 200
+Image Request sent at 13:12:53 - Status: 200
+Image Request sent at 13:12:53 - Status: 200
+Image Request sent at 13:12:53 - Status: 200
+Image Request sent at 13:12:53 - Status: 200
+Image Request sent at 13:12:53 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:54 - Status: 200
+Duration of 5.0 seconds reached. Sent 35 requests.
+Not waiting for requests to complete. Total: 35 requests over 5.0 seconds
+Image Request sent at 13:12:54 - Status: 200
+Image Request sent at 13:12:55 - Status: 200
+Image Request sent at 13:12:55 - Status: 200
+Image Request sent at 13:12:55 - Status: 200
+Image Request sent at 13:12:55 - Status: 200
+Image Request sent at 13:12:55 - Status: 200
+Image Request sent at 13:12:56 - Status: 200
+Image Request sent at 13:12:56 - Status: 200
+Image Request sent at 13:12:56 - Status: 200
+Image Request sent at 13:12:57 - Status: 200
+Image Request sent at 13:12:57 - Status: 200
+Image Request sent at 13:12:57 - Status: 200
+Image Request sent at 13:12:58 - Status: 200
+Image Request sent at 13:12:58 - Status: 200
+[76.168s] Stage 10/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:12:59 - Status: 200
+Image Request sent at 13:12:59 - Status: 200
+Image Request sent at 13:12:59 - Status: 200
+Image Request sent at 13:12:59 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:00 - Status: 200
+Image Request sent at 13:13:01 - Status: 200
+Image Request sent at 13:13:01 - Status: 200
+Image Request sent at 13:13:01 - Status: 200
+Image Request sent at 13:13:01 - Status: 200
+Image Request sent at 13:13:01 - Status: 200
+Image Request sent at 13:13:01 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:02 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:03 - Status: 200
+Image Request sent at 13:13:04 - Status: 200
+Image Request sent at 13:13:04 - Status: 200
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:13:04 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:13:05 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:13:05 - Status: 200
+Image Request sent at 13:13:05 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:13:05 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:13:05 - Status: 200
+Image Request sent at 13:13:05 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:13:05 - Status: 200
+Image Request sent at 13:13:05 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:06 - Status: 200
+Image Request sent at 13:13:07 - Status: 200
+Image Request sent at 13:13:07 - Status: 200
+Image Request sent at 13:13:07 - Status: 200
+Image Request sent at 13:13:07 - Status: 200
+Image Request sent at 13:13:07 - Status: 200
+Image Request sent at 13:13:08 - Status: 200
+Image Request sent at 13:13:08 - Status: 200
+[85.652s] Stage 11/50: Setting request rate to 14 requests/second
+Sending 14 requests per second for 5.0 seconds
+Image Request sent at 13:13:08 - Status: 200
+Image Request sent at 13:13:08 - Status: 200
+Image Request sent at 13:13:08 - Status: 200
+Image Request sent at 13:13:08 - Status: 200
+Image Request sent at 13:13:08 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:09 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:10 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:11 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:12 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Duration of 5.0 seconds reached. Sent 70 requests.
+Not waiting for requests to complete. Total: 70 requests over 5.0 seconds
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:13 - Status: 200
+Image Request sent at 13:13:14 - Status: 200
+Image Request sent at 13:13:14 - Status: 200
+Image Request sent at 13:13:14 - Status: 200
+Image Request sent at 13:13:14 - Status: 200
+Image Request sent at 13:13:14 - Status: 200
+Image Request sent at 13:13:15 - Status: 200
+Image Request sent at 13:13:15 - Status: 200
+Image Request sent at 13:13:15 - Status: 200
+Image Request sent at 13:13:15 - Status: 200
+Image Request sent at 13:13:15 - Status: 200
+Image Request sent at 13:13:15 - Status: 200
+Image Request sent at 13:13:16 - Status: 200
+Image Request sent at 13:13:16 - Status: 200
+Image Request sent at 13:13:16 - Status: 200
+Image Request sent at 13:13:16 - Status: 200
+Image Request sent at 13:13:16 - Status: 200
+Image Request sent at 13:13:17 - Status: 200
+Image Request sent at 13:13:17 - Status: 200
+[95.195s] Stage 12/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:13:17 - Status: 200
+Image Request sent at 13:13:18 - Status: 200
+Image Request sent at 13:13:18 - Status: 200
+Image Request sent at 13:13:18 - Status: 200
+Image Request sent at 13:13:19 - Status: 200
+Image Request sent at 13:13:19 - Status: 200
+Image Request sent at 13:13:19 - Status: 200
+Image Request sent at 13:13:20 - Status: 200
+Image Request sent at 13:13:20 - Status: 200
+Image Request sent at 13:13:20 - Status: 200
+Image Request sent at 13:13:20 - Status: 200
+Image Request sent at 13:13:20 - Status: 200
+Image Request sent at 13:13:21 - Status: 200
+Image Request sent at 13:13:21 - Status: 200
+Image Request sent at 13:13:21 - Status: 200
+Image Request sent at 13:13:21 - Status: 200
+Image Request sent at 13:13:22 - Status: 200
+Image Request sent at 13:13:22 - Status: 200
+Image Request sent at 13:13:22 - Status: 200
+Image Request sent at 13:13:22 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:13:22 - Status: 200
+Image Request sent at 13:13:23 - Status: 200
+Image Request sent at 13:13:23 - Status: 200
+Image Request sent at 13:13:23 - Status: 200
+Image Request sent at 13:13:23 - Status: 200
+[101.510s] Stage 13/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:13:24 - Status: 200
+Image Request sent at 13:13:24 - Status: 200
+Image Request sent at 13:13:24 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:25 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:26 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:27 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Image Request sent at 13:13:28 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:29 - Status: 200
+Image Request sent at 13:13:30 - Status: 200
+Image Request sent at 13:13:30 - Status: 200
+Image Request sent at 13:13:30 - Status: 200
+Image Request sent at 13:13:30 - Status: 200
+Image Request sent at 13:13:30 - Status: 200
+Image Request sent at 13:13:30 - Status: 200
+Image Request sent at 13:13:31 - Status: 200
+Image Request sent at 13:13:31 - Status: 200
+Image Request sent at 13:13:31 - Status: 200
+Image Request sent at 13:13:32 - Status: 200
+[109.751s] Stage 14/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:13:32 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:33 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:34 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:35 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:36 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:37 - Status: 200
+Image Request sent at 13:13:38 - Status: 200
+Image Request sent at 13:13:38 - Status: 200
+Image Request sent at 13:13:38 - Status: 200
+Image Request sent at 13:13:38 - Status: 200
+Image Request sent at 13:13:38 - Status: 200
+Image Request sent at 13:13:39 - Status: 200
+Image Request sent at 13:13:39 - Status: 200
+Image Request sent at 13:13:39 - Status: 200
+Image Request sent at 13:13:40 - Status: 200
+[117.797s] Stage 15/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:13:40 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:41 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:42 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:43 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:44 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:45 - Status: 200
+Image Request sent at 13:13:46 - Status: 200
+Image Request sent at 13:13:46 - Status: 200
+Image Request sent at 13:13:46 - Status: 200
+Image Request sent at 13:13:46 - Status: 200
+Image Request sent at 13:13:46 - Status: 200
+Image Request sent at 13:13:47 - Status: 200
+Image Request sent at 13:13:47 - Status: 200
+Image Request sent at 13:13:47 - Status: 200
+Image Request sent at 13:13:47 - Status: 200
+Image Request sent at 13:13:48 - Status: 200
+[125.785s] Stage 16/50: Setting request rate to 13 requests/second
+Sending 13 requests per second for 5.0 seconds
+Image Request sent at 13:13:48 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:49 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:50 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:51 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:52 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Duration of 5.0 seconds reached. Sent 65 requests.
+Not waiting for requests to complete. Total: 65 requests over 5.0 seconds
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:53 - Status: 200
+Image Request sent at 13:13:54 - Status: 200
+Image Request sent at 13:13:54 - Status: 200
+Image Request sent at 13:13:54 - Status: 200
+Image Request sent at 13:13:55 - Status: 200
+Image Request sent at 13:13:55 - Status: 200
+Image Request sent at 13:13:55 - Status: 200
+Image Request sent at 13:13:56 - Status: 200
+Image Request sent at 13:13:56 - Status: 200
+[134.194s] Stage 17/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:13:56 - Status: 200
+Image Request sent at 13:13:57 - Status: 200
+Image Request sent at 13:13:57 - Status: 200
+Image Request sent at 13:13:58 - Status: 200
+Image Request sent at 13:13:58 - Status: 200
+Image Request sent at 13:13:58 - Status: 500
+Image Request sent at 13:13:58 - Status: 500
+Image Request sent at 13:13:58 - Status: 500
+Image Request sent at 13:13:58 - Status: 500
+Image Request sent at 13:13:58 - Status: 500
+Image Request sent at 13:13:58 - Status: 500
+Image Request sent at 13:13:58 - Status: 500
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:14:04 - Status: 500
+Image Request sent at 13:14:04 - Status: 500
+Image Request sent at 13:14:04 - Status: 500
+Image Request sent at 13:14:04 - Status: 500
+Image Request sent at 13:14:04 - Status: 500
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:14:04 - Status: 500
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:14:06 - Status: 500
+Image Request sent at 13:14:06 - Status: 500
+Image Request sent at 13:14:06 - Status: 500
+Image Request sent at 13:14:06 - Status: 500
+[144.208s] Stage 18/50: Setting request rate to 6 requests/second
+Sending 6 requests per second for 5.0 seconds
+Image Request sent at 13:14:06 - Status: 500
+Image Request sent at 13:14:06 - Status: 502
+Image Request sent at 13:14:07 - Status: 502
+Image Request sent at 13:14:07 - Status: 502
+Image Request sent at 13:14:07 - Status: 502
+Image Request sent at 13:14:07 - Status: 502
+Image Request sent at 13:14:07 - Status: 502
+Image Request sent at 13:14:07 - Status: 502
+Image Request sent at 13:14:08 - Status: 502
+Image Request sent at 13:14:08 - Status: 502
+Image Request sent at 13:14:08 - Status: 502
+Image Request sent at 13:14:08 - Status: 502
+Image Request sent at 13:14:08 - Status: 502
+Image Request sent at 13:14:08 - Status: 502
+Image Request sent at 13:14:09 - Status: 502
+Image Request sent at 13:14:09 - Status: 502
+Image Request sent at 13:14:09 - Status: 502
+Image Request sent at 13:14:09 - Status: 502
+Image Request sent at 13:14:09 - Status: 502
+Image Request sent at 13:14:09 - Status: 502
+Image Request sent at 13:14:10 - Status: 502
+Image Request sent at 13:14:10 - Status: 502
+Image Request sent at 13:14:10 - Status: 502
+Image Request sent at 13:14:10 - Status: 502
+Image Request sent at 13:14:10 - Status: 502
+Image Request sent at 13:14:10 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Duration of 5.0 seconds reached. Sent 30 requests.
+Not waiting for requests to complete. Total: 30 requests over 5.0 seconds
+[149.222s] Stage 19/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:11 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:12 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:13 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:14 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:15 - Status: 502
+Image Request sent at 13:14:16 - Status: 502
+Image Request sent at 13:14:16 - Status: 502
+Image Request sent at 13:14:16 - Status: 502
+Image Request sent at 13:14:16 - Status: 502
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:14:17 - Status: 502
+Image Request sent at 13:14:19 - Status: 502
+Image Request sent at 13:14:19 - Status: 502
+Image Request sent at 13:14:23 - Status: 502
+Image Request sent at 13:14:23 - Status: 502
+Image Request sent at 13:14:23 - Status: 502
+[161.416s] Stage 20/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:14:25 - Status: 502
+Image Request sent at 13:14:26 - Status: 502
+Image Request sent at 13:14:27 - Status: 502
+Image Request sent at 13:14:28 - Status: 502
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:14:29 - Status: 502
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:14:30 - Status: 502
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:14:31 - Status: 502
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:14:32 - Status: 502
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:14:39 - Status: 502
+Image Request sent at 13:14:39 - Status: 502
+Image Request sent at 13:14:40 - Status: 502
+Image Request sent at 13:14:40 - Status: 502
+Image Request sent at 13:14:41 - Status: 502
+Image Request sent at 13:14:41 - Status: 502
+[178.822s] Stage 21/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:14:42 - Status: 500
+Image Request sent at 13:14:42 - Status: 500
+Image Request sent at 13:14:42 - Status: 500
+Image Request sent at 13:14:42 - Status: 500
+Image Request sent at 13:14:42 - Status: 500
+Image Request sent at 13:14:43 - Status: 200
+Image Request sent at 13:14:43 - Status: 200
+Image Request sent at 13:14:44 - Status: 200
+Image Request sent at 13:14:44 - Status: 200
+Image Request sent at 13:14:44 - Status: 200
+Image Request sent at 13:14:45 - Status: 200
+Image Request sent at 13:14:45 - Status: 200
+Image Request sent at 13:14:45 - Status: 200
+Image Request sent at 13:14:46 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:14:46 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:14:46 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:14:47 - Status: 200
+Image Request sent at 13:14:47 - Status: 200
+Image Request sent at 13:14:48 - Status: 200
+Image Request sent at 13:14:48 - Status: 200
+Image Request sent at 13:14:48 - Status: 200
+Image Request sent at 13:14:49 - Status: 200
+Image Request sent at 13:14:49 - Status: 200
+Image Request sent at 13:14:49 - Status: 200
+[187.209s] Stage 22/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:14:50 - Status: 200
+Image Request sent at 13:14:50 - Status: 200
+Image Request sent at 13:14:51 - Status: 200
+Image Request sent at 13:14:51 - Status: 200
+Image Request sent at 13:14:51 - Status: 200
+Image Request sent at 13:14:52 - Status: 200
+Image Request sent at 13:14:52 - Status: 200
+Image Request sent at 13:14:52 - Status: 200
+Image Request sent at 13:14:53 - Status: 200
+Image Request sent at 13:14:53 - Status: 200
+Image Request sent at 13:14:53 - Status: 200
+Image Request sent at 13:14:54 - Status: 200
+Image Request sent at 13:14:54 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:14:54 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:14:55 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:14:55 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:14:55 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:14:56 - Status: 200
+Image Request sent at 13:14:56 - Status: 200
+Image Request sent at 13:14:56 - Status: 200
+Image Request sent at 13:14:56 - Status: 200
+Image Request sent at 13:14:57 - Status: 200
+Image Request sent at 13:14:57 - Status: 200
+[194.875s] Stage 23/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:14:57 - Status: 200
+Image Request sent at 13:14:57 - Status: 200
+Image Request sent at 13:14:58 - Status: 200
+Image Request sent at 13:14:58 - Status: 200
+Image Request sent at 13:14:58 - Status: 200
+Image Request sent at 13:14:58 - Status: 200
+Image Request sent at 13:14:58 - Status: 200
+Image Request sent at 13:14:59 - Status: 200
+Image Request sent at 13:14:59 - Status: 200
+Image Request sent at 13:14:59 - Status: 200
+Image Request sent at 13:15:00 - Status: 200
+Image Request sent at 13:15:00 - Status: 200
+Image Request sent at 13:15:00 - Status: 200
+Image Request sent at 13:15:01 - Status: 200
+Image Request sent at 13:15:01 - Status: 200
+Image Request sent at 13:15:01 - Status: 200
+Image Request sent at 13:15:01 - Status: 200
+Image Request sent at 13:15:02 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:15:02 - Status: 200
+Image Request sent at 13:15:03 - Status: 200
+Image Request sent at 13:15:03 - Status: 200
+Image Request sent at 13:15:03 - Status: 200
+Image Request sent at 13:15:03 - Status: 200
+Image Request sent at 13:15:04 - Status: 200
+Image Request sent at 13:15:04 - Status: 200
+[202.166s] Stage 24/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:15:05 - Status: 200
+Image Request sent at 13:15:05 - Status: 200
+Image Request sent at 13:15:05 - Status: 200
+Image Request sent at 13:15:06 - Status: 200
+Image Request sent at 13:15:06 - Status: 200
+Image Request sent at 13:15:06 - Status: 200
+Image Request sent at 13:15:07 - Status: 200
+Image Request sent at 13:15:07 - Status: 200
+Image Request sent at 13:15:08 - Status: 200
+Image Request sent at 13:15:08 - Status: 200
+Image Request sent at 13:15:08 - Status: 200
+Image Request sent at 13:15:08 - Status: 200
+Image Request sent at 13:15:09 - Status: 200
+Image Request sent at 13:15:09 - Status: 200
+Image Request sent at 13:15:09 - Status: 200
+Image Request sent at 13:15:09 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:15:09 - Status: 200
+Image Request sent at 13:15:09 - Status: 200
+Image Request sent at 13:15:09 - Status: 200
+Image Request sent at 13:15:10 - Status: 200
+Image Request sent at 13:15:10 - Status: 200
+Image Request sent at 13:15:10 - Status: 200
+Image Request sent at 13:15:11 - Status: 200
+Image Request sent at 13:15:11 - Status: 200
+Image Request sent at 13:15:11 - Status: 200
+[209.445s] Stage 25/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:15:12 - Status: 200
+Image Request sent at 13:15:12 - Status: 200
+Image Request sent at 13:15:12 - Status: 200
+Image Request sent at 13:15:13 - Status: 200
+Image Request sent at 13:15:13 - Status: 200
+Image Request sent at 13:15:13 - Status: 200
+Image Request sent at 13:15:13 - Status: 200
+Image Request sent at 13:15:13 - Status: 200
+Image Request sent at 13:15:13 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:14 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:15 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Image Request sent at 13:15:16 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:15:17 - Status: 200
+Image Request sent at 13:15:17 - Status: 200
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:17 - Status: 200
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:17 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:15:18 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:18 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:18 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:18 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:18 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:18 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:18 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:18 - Status: 200
+Image Request sent at 13:15:18 - Status: 200
+Image Request sent at 13:15:18 - Status: 200
+Image Request sent at 13:15:19 - Status: 200
+Image Request sent at 13:15:19 - Status: 200
+Image Request sent at 13:15:19 - Status: 200
+Image Request sent at 13:15:19 - Status: 200
+Image Request sent at 13:15:19 - Status: 200
+Image Request sent at 13:15:20 - Status: 200
+Image Request sent at 13:15:20 - Status: 200
+Image Request sent at 13:15:20 - Status: 200
+Image Request sent at 13:15:21 - Status: 200
+Image Request sent at 13:15:21 - Status: 200
+Image Request sent at 13:15:21 - Status: 200
+Image Request sent at 13:15:21 - Status: 200
+[219.235s] Stage 26/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:22 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:23 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:24 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:25 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:26 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:27 - Status: 200
+Image Request sent at 13:15:28 - Status: 200
+Image Request sent at 13:15:28 - Status: 200
+Image Request sent at 13:15:28 - Status: 200
+Image Request sent at 13:15:28 - Status: 200
+Image Request sent at 13:15:28 - Status: 200
+Image Request sent at 13:15:29 - Status: 200
+Image Request sent at 13:15:29 - Status: 200
+Image Request sent at 13:15:30 - Status: 200
+Image Request sent at 13:15:30 - Status: 200
+Image Request sent at 13:15:30 - Status: 200
+[228.347s] Stage 27/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:15:31 - Status: 200
+Image Request sent at 13:15:31 - Status: 200
+Image Request sent at 13:15:31 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:32 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:33 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:34 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Image Request sent at 13:15:35 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.10s (attempt 1/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.20s (attempt 2/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed: cannot schedule new futures after shutdown. Retrying in 0.40s (attempt 3/3)
+Image Request sent at 13:15:36 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:36 - Status: 200
+Image Request sent at 13:15:36 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:36 - Status: 200
+Request failed after 3 retries: cannot schedule new futures after shutdown
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:37 - Status: 200
+Image Request sent at 13:15:38 - Status: 200
+Image Request sent at 13:15:38 - Status: 200
+Image Request sent at 13:15:39 - Status: 200
+Image Request sent at 13:15:39 - Status: 200
+Image Request sent at 13:15:39 - Status: 200
+Image Request sent at 13:15:40 - Status: 200
+Image Request sent at 13:15:40 - Status: 200
+[238.004s] Stage 28/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:15:40 - Status: 200
+Image Request sent at 13:15:41 - Status: 200
+Image Request sent at 13:15:41 - Status: 200
+Image Request sent at 13:15:41 - Status: 200
+Image Request sent at 13:15:41 - Status: 200
+Image Request sent at 13:15:41 - Status: 200
+Image Request sent at 13:15:41 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:42 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:43 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:44 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:45 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:46 - Status: 200
+Image Request sent at 13:15:47 - Status: 200
+Image Request sent at 13:15:47 - Status: 200
+Image Request sent at 13:15:47 - Status: 200
+Image Request sent at 13:15:47 - Status: 200
+Image Request sent at 13:15:47 - Status: 200
+Image Request sent at 13:15:47 - Status: 200
+Image Request sent at 13:15:48 - Status: 200
+Image Request sent at 13:15:48 - Status: 200
+Image Request sent at 13:15:48 - Status: 200
+Image Request sent at 13:15:49 - Status: 200
+Image Request sent at 13:15:49 - Status: 200
+Image Request sent at 13:15:49 - Status: 200
+Image Request sent at 13:15:50 - Status: 200
+[247.577s] Stage 29/50: Setting request rate to 10 requests/second
+Sending 10 requests per second for 5.0 seconds
+Image Request sent at 13:15:50 - Status: 200
+Image Request sent at 13:15:50 - Status: 200
+Image Request sent at 13:15:51 - Status: 200
+Image Request sent at 13:15:51 - Status: 200
+Image Request sent at 13:15:51 - Status: 200
+Image Request sent at 13:15:51 - Status: 200
+Image Request sent at 13:15:51 - Status: 200
+Image Request sent at 13:15:51 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:52 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:53 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:54 - Status: 200
+Image Request sent at 13:15:55 - Status: 200
+Duration of 5.0 seconds reached. Sent 50 requests.
+Not waiting for requests to complete. Total: 50 requests over 5.0 seconds
+Image Request sent at 13:15:55 - Status: 200
+Image Request sent at 13:15:55 - Status: 200
+Image Request sent at 13:15:55 - Status: 200
+Image Request sent at 13:15:55 - Status: 200
+Image Request sent at 13:15:55 - Status: 200
+Image Request sent at 13:15:55 - Status: 200
+Image Request sent at 13:15:56 - Status: 200
+Image Request sent at 13:15:56 - Status: 200
+Image Request sent at 13:15:56 - Status: 200
+Image Request sent at 13:15:57 - Status: 200
+Image Request sent at 13:15:57 - Status: 200
+Image Request sent at 13:15:57 - Status: 200
+Image Request sent at 13:15:58 - Status: 200
+Image Request sent at 13:15:58 - Status: 200
+Image Request sent at 13:15:58 - Status: 200
+[256.342s] Stage 30/50: Setting request rate to 5 requests/second
+Sending 5 requests per second for 5.0 seconds
+Image Request sent at 13:15:59 - Status: 200
+Image Request sent at 13:15:59 - Status: 200
+Image Request sent at 13:15:59 - Status: 200
+Image Request sent at 13:16:00 - Status: 200
+Image Request sent at 13:16:00 - Status: 200
+Image Request sent at 13:16:00 - Status: 200
+Image Request sent at 13:16:01 - Status: 200
+Image Request sent at 13:16:01 - Status: 200
+Image Request sent at 13:16:02 - Status: 200
+Image Request sent at 13:16:02 - Status: 200
+Image Request sent at 13:16:02 - Status: 200
+Image Request sent at 13:16:03 - Status: 200
+Image Request sent at 13:16:03 - Status: 200
+Image Request sent at 13:16:03 - Status: 200
+Image Request sent at 13:16:03 - Status: 200
+Image Request sent at 13:16:03 - Status: 200
+Duration of 5.0 seconds reached. Sent 25 requests.
+Not waiting for requests to complete. Total: 25 requests over 5.0 seconds
+Image Request sent at 13:16:03 - Status: 200
+Image Request sent at 13:16:04 - Status: 200
+Image Request sent at 13:16:04 - Status: 200
+Image Request sent at 13:16:04 - Status: 200
+Image Request sent at 13:16:05 - Status: 200
+Image Request sent at 13:16:05 - Status: 200
+Image Request sent at 13:16:05 - Status: 200
+Image Request sent at 13:16:06 - Status: 200
+Image Request sent at 13:16:06 - Status: 200
+[264.199s] Stage 31/50: Setting request rate to 8 requests/second
+Sending 8 requests per second for 5.0 seconds
+Image Request sent at 13:16:07 - Status: 200
+Image Request sent at 13:16:07 - Status: 200
+Image Request sent at 13:16:07 - Status: 200
+Image Request sent at 13:16:08 - Status: 200
+Image Request sent at 13:16:08 - Status: 200
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 500
+Image Request sent at 13:16:08 - Status: 502
+Image Request sent at 13:16:09 - Status: 502
+Image Request sent at 13:16:09 - Status: 200
+Image Request sent at 13:16:09 - Status: 502
+Image Request sent at 13:16:09 - Status: 502
+Image Request sent at 13:16:09 - Status: 200
+Image Request sent at 13:16:09 - Status: 502
+Image Request sent at 13:16:09 - Status: 502
+Image Request sent at 13:16:09 - Status: 200
+Image Request sent at 13:16:10 - Status: 502
+Image Request sent at 13:16:10 - Status: 200
+Image Request sent at 13:16:10 - Status: 200
+Image Request sent at 13:16:10 - Status: 200
+Image Request sent at 13:16:11 - Status: 200
+Image Request sent at 13:16:11 - Status: 200
+Image Request sent at 13:16:11 - Status: 200
+Image Request sent at 13:16:11 - Status: 200
+Duration of 5.0 seconds reached. Sent 40 requests.
+Not waiting for requests to complete. Total: 40 requests over 5.0 seconds
+Image Request sent at 13:16:11 - Status: 200
+Image Request sent at 13:16:11 - Status: 200
+Image Request sent at 13:16:12 - Status: 200
+Image Request sent at 13:16:12 - Status: 200
+Image Request sent at 13:16:12 - Status: 200
+Image Request sent at 13:16:12 - Status: 200
+[270.412s] Stage 32/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:13 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:14 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:15 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:16 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:17 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:16:17 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:18 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:19 - Status: 200
+Image Request sent at 13:16:20 - Status: 200
+Image Request sent at 13:16:20 - Status: 200
+Image Request sent at 13:16:20 - Status: 200
+Image Request sent at 13:16:20 - Status: 200
+[278.293s] Stage 33/50: Setting request rate to 9 requests/second
+Sending 9 requests per second for 5.0 seconds
+Image Request sent at 13:16:20 - Status: 200
+Image Request sent at 13:16:21 - Status: 200
+Image Request sent at 13:16:21 - Status: 200
+Image Request sent at 13:16:21 - Status: 200
+Image Request sent at 13:16:21 - Status: 200
+Image Request sent at 13:16:21 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:22 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:23 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:24 - Status: 200
+Image Request sent at 13:16:25 - Status: 200
+Image Request sent at 13:16:25 - Status: 200
+Image Request sent at 13:16:25 - Status: 200
+Image Request sent at 13:16:25 - Status: 200
+Image Request sent at 13:16:25 - Status: 200
+Duration of 5.0 seconds reached. Sent 45 requests.
+Not waiting for requests to complete. Total: 45 requests over 5.0 seconds
+Image Request sent at 13:16:25 - Status: 200
+Image Request sent at 13:16:25 - Status: 200
+Image Request sent at 13:16:26 - Status: 200
+Image Request sent at 13:16:26 - Status: 200
+Image Request sent at 13:16:26 - Status: 200
+Image Request sent at 13:16:26 - Status: 200
+Image Request sent at 13:16:26 - Status: 200
+Image Request sent at 13:16:26 - Status: 200
+Image Request sent at 13:16:27 - Status: 200
+[284.622s] Stage 34/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:16:27 - Status: 200
+Image Request sent at 13:16:27 - Status: 200
+Image Request sent at 13:16:27 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:28 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:29 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:30 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:31 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:32 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:33 - Status: 200
+Image Request sent at 13:16:34 - Status: 200
+Image Request sent at 13:16:34 - Status: 200
+Image Request sent at 13:16:34 - Status: 200
+Image Request sent at 13:16:34 - Status: 200
+Image Request sent at 13:16:35 - Status: 200
+Image Request sent at 13:16:35 - Status: 200
+Image Request sent at 13:16:35 - Status: 200
+Image Request sent at 13:16:36 - Status: 200
+Image Request sent at 13:16:36 - Status: 200
+[294.273s] Stage 35/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:16:37 - Status: 200
+Image Request sent at 13:16:37 - Status: 200
+Image Request sent at 13:16:37 - Status: 200
+Image Request sent at 13:16:37 - Status: 200
+Image Request sent at 13:16:37 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:38 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:39 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:40 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:41 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:42 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:43 - Status: 200
+Image Request sent at 13:16:44 - Status: 200
+Image Request sent at 13:16:44 - Status: 200
+Image Request sent at 13:16:44 - Status: 200
+Image Request sent at 13:16:45 - Status: 200
+Image Request sent at 13:16:45 - Status: 200
+[303.032s] Stage 36/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:16:45 - Status: 200
+Image Request sent at 13:16:46 - Status: 200
+Image Request sent at 13:16:46 - Status: 200
+Image Request sent at 13:16:46 - Status: 200
+Image Request sent at 13:16:46 - Status: 200
+Image Request sent at 13:16:46 - Status: 200
+Image Request sent at 13:16:46 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:47 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:48 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:49 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:50 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:51 - Status: 200
+Image Request sent at 13:16:52 - Status: 200
+Image Request sent at 13:16:52 - Status: 200
+Image Request sent at 13:16:52 - Status: 200
+Image Request sent at 13:16:52 - Status: 200
+Image Request sent at 13:16:53 - Status: 200
+Image Request sent at 13:16:53 - Status: 200
+Image Request sent at 13:16:53 - Status: 200
+Image Request sent at 13:16:54 - Status: 200
+[311.682s] Stage 37/50: Setting request rate to 14 requests/second
+Sending 14 requests per second for 5.0 seconds
+Image Request sent at 13:16:54 - Status: 200
+Image Request sent at 13:16:54 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:55 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:56 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:57 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:58 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Duration of 5.0 seconds reached. Sent 70 requests.
+Not waiting for requests to complete. Total: 70 requests over 5.0 seconds
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:16:59 - Status: 200
+Image Request sent at 13:17:00 - Status: 200
+Image Request sent at 13:17:00 - Status: 200
+Image Request sent at 13:17:00 - Status: 200
+Image Request sent at 13:17:00 - Status: 200
+Image Request sent at 13:17:00 - Status: 200
+Image Request sent at 13:17:00 - Status: 200
+Image Request sent at 13:17:01 - Status: 200
+Image Request sent at 13:17:01 - Status: 200
+Image Request sent at 13:17:01 - Status: 200
+Image Request sent at 13:17:02 - Status: 200
+Image Request sent at 13:17:02 - Status: 200
+Image Request sent at 13:17:02 - Status: 200
+[320.390s] Stage 38/50: Setting request rate to 13 requests/second
+Sending 13 requests per second for 5.0 seconds
+Image Request sent at 13:17:03 - Status: 200
+Image Request sent at 13:17:03 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:04 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:05 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:06 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Duration of 5.0 seconds reached. Sent 65 requests.
+Not waiting for requests to complete. Total: 65 requests over 5.0 seconds
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:07 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:08 - Status: 200
+Image Request sent at 13:17:09 - Status: 200
+Image Request sent at 13:17:09 - Status: 200
+Image Request sent at 13:17:09 - Status: 200
+Image Request sent at 13:17:09 - Status: 200
+Image Request sent at 13:17:10 - Status: 200
+Image Request sent at 13:17:10 - Status: 200
+Image Request sent at 13:17:10 - Status: 200
+Image Request sent at 13:17:10 - Status: 200
+[328.492s] Stage 39/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:17:11 - Status: 200
+Image Request sent at 13:17:11 - Status: 200
+Image Request sent at 13:17:11 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:12 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:13 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:14 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Image Request sent at 13:17:15 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:16 - Status: 200
+Image Request sent at 13:17:17 - Status: 200
+Image Request sent at 13:17:17 - Status: 200
+Image Request sent at 13:17:17 - Status: 200
+Image Request sent at 13:17:17 - Status: 200
+Image Request sent at 13:17:18 - Status: 200
+Image Request sent at 13:17:18 - Status: 200
+Image Request sent at 13:17:18 - Status: 200
+Image Request sent at 13:17:19 - Status: 200
+Image Request sent at 13:17:19 - Status: 200
+[336.791s] Stage 40/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:17:19 - Status: 200
+Image Request sent at 13:17:19 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:20 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:21 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:22 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:23 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:24 - Status: 200
+Image Request sent at 13:17:25 - Status: 200
+Image Request sent at 13:17:25 - Status: 200
+Image Request sent at 13:17:25 - Status: 200
+Image Request sent at 13:17:25 - Status: 200
+Image Request sent at 13:17:25 - Status: 200
+Image Request sent at 13:17:26 - Status: 200
+Image Request sent at 13:17:26 - Status: 200
+Image Request sent at 13:17:26 - Status: 200
+Image Request sent at 13:17:26 - Status: 200
+Image Request sent at 13:17:27 - Status: 200
+Image Request sent at 13:17:27 - Status: 200
+Image Request sent at 13:17:27 - Status: 200
+[345.281s] Stage 41/50: Setting request rate to 13 requests/second
+Sending 13 requests per second for 5.0 seconds
+Image Request sent at 13:17:28 - Status: 200
+Image Request sent at 13:17:28 - Status: 200
+Image Request sent at 13:17:28 - Status: 200
+Image Request sent at 13:17:28 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:29 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:30 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:31 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Duration of 5.0 seconds reached. Sent 65 requests.
+Not waiting for requests to complete. Total: 65 requests over 5.0 seconds
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:32 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:33 - Status: 200
+Image Request sent at 13:17:34 - Status: 200
+Image Request sent at 13:17:34 - Status: 200
+Image Request sent at 13:17:34 - Status: 200
+Image Request sent at 13:17:34 - Status: 200
+Image Request sent at 13:17:35 - Status: 200
+Image Request sent at 13:17:35 - Status: 200
+Image Request sent at 13:17:35 - Status: 200
+Image Request sent at 13:17:35 - Status: 200
+[353.392s] Stage 42/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:17:36 - Status: 200
+Image Request sent at 13:17:36 - Status: 200
+Image Request sent at 13:17:36 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:37 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:38 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:39 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:40 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:41 - Status: 200
+Image Request sent at 13:17:42 - Status: 200
+Image Request sent at 13:17:42 - Status: 200
+Image Request sent at 13:17:42 - Status: 200
+Image Request sent at 13:17:42 - Status: 200
+Image Request sent at 13:17:42 - Status: 200
+Image Request sent at 13:17:42 - Status: 200
+Image Request sent at 13:17:43 - Status: 200
+Image Request sent at 13:17:43 - Status: 200
+Image Request sent at 13:17:43 - Status: 200
+Image Request sent at 13:17:44 - Status: 200
+Image Request sent at 13:17:44 - Status: 200
+[362.104s] Stage 43/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:17:44 - Status: 200
+Image Request sent at 13:17:45 - Status: 200
+Image Request sent at 13:17:45 - Status: 200
+Image Request sent at 13:17:45 - Status: 200
+Image Request sent at 13:17:45 - Status: 200
+Image Request sent at 13:17:45 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:46 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:47 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:48 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:49 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:50 - Status: 200
+Image Request sent at 13:17:51 - Status: 200
+Image Request sent at 13:17:51 - Status: 200
+Image Request sent at 13:17:51 - Status: 200
+Image Request sent at 13:17:51 - Status: 200
+Image Request sent at 13:17:51 - Status: 200
+Image Request sent at 13:17:51 - Status: 200
+Image Request sent at 13:17:52 - Status: 200
+Image Request sent at 13:17:52 - Status: 200
+Image Request sent at 13:17:52 - Status: 200
+[370.057s] Stage 44/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:17:52 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:53 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:54 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:55 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:56 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:57 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:58 - Status: 200
+Image Request sent at 13:17:59 - Status: 200
+Image Request sent at 13:17:59 - Status: 200
+Image Request sent at 13:17:59 - Status: 200
+Image Request sent at 13:17:59 - Status: 200
+Image Request sent at 13:17:59 - Status: 200
+Image Request sent at 13:17:59 - Status: 200
+Image Request sent at 13:18:00 - Status: 200
+Image Request sent at 13:18:00 - Status: 200
+Image Request sent at 13:18:00 - Status: 200
+[378.322s] Stage 45/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:18:01 - Status: 200
+Image Request sent at 13:18:01 - Status: 200
+Image Request sent at 13:18:01 - Status: 200
+Image Request sent at 13:18:01 - Status: 200
+Image Request sent at 13:18:01 - Status: 200
+Image Request sent at 13:18:01 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:02 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:03 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:04 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:05 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:06 - Status: 200
+Image Request sent at 13:18:07 - Status: 200
+Image Request sent at 13:18:07 - Status: 200
+Image Request sent at 13:18:07 - Status: 200
+Image Request sent at 13:18:07 - Status: 200
+Image Request sent at 13:18:07 - Status: 200
+Image Request sent at 13:18:07 - Status: 200
+Image Request sent at 13:18:08 - Status: 200
+Image Request sent at 13:18:08 - Status: 200
+[386.072s] Stage 46/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:09 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:10 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:11 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:12 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:13 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:14 - Status: 200
+Image Request sent at 13:18:15 - Status: 200
+Image Request sent at 13:18:15 - Status: 200
+Image Request sent at 13:18:15 - Status: 200
+Image Request sent at 13:18:15 - Status: 200
+Image Request sent at 13:18:15 - Status: 200
+Image Request sent at 13:18:16 - Status: 200
+Image Request sent at 13:18:16 - Status: 200
+Image Request sent at 13:18:16 - Status: 200
+[394.284s] Stage 47/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:18:17 - Status: 200
+Image Request sent at 13:18:17 - Status: 200
+Image Request sent at 13:18:17 - Status: 200
+Image Request sent at 13:18:17 - Status: 200
+Image Request sent at 13:18:17 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:18 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:19 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:20 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:21 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:22 - Status: 200
+Image Request sent at 13:18:23 - Status: 200
+Image Request sent at 13:18:23 - Status: 200
+Image Request sent at 13:18:23 - Status: 200
+Image Request sent at 13:18:23 - Status: 200
+Image Request sent at 13:18:23 - Status: 200
+Image Request sent at 13:18:23 - Status: 200
+Image Request sent at 13:18:24 - Status: 200
+Image Request sent at 13:18:24 - Status: 200
+Image Request sent at 13:18:24 - Status: 200
+[402.418s] Stage 48/50: Setting request rate to 15 requests/second
+Sending 15 requests per second for 5.0 seconds
+Image Request sent at 13:18:25 - Status: 200
+Image Request sent at 13:18:25 - Status: 200
+Image Request sent at 13:18:25 - Status: 200
+Image Request sent at 13:18:25 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:26 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:27 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:28 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Image Request sent at 13:18:29 - Status: 200
+Duration of 5.0 seconds reached. Sent 75 requests.
+Not waiting for requests to complete. Total: 75 requests over 5.0 seconds
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:30 - Status: 200
+Image Request sent at 13:18:31 - Status: 200
+Image Request sent at 13:18:31 - Status: 200
+Image Request sent at 13:18:31 - Status: 200
+Image Request sent at 13:18:31 - Status: 200
+Image Request sent at 13:18:31 - Status: 200
+Image Request sent at 13:18:32 - Status: 200
+Image Request sent at 13:18:32 - Status: 200
+Image Request sent at 13:18:32 - Status: 200
+[410.280s] Stage 49/50: Setting request rate to 12 requests/second
+Sending 12 requests per second for 5.0 seconds
+Image Request sent at 13:18:33 - Status: 200
+Image Request sent at 13:18:33 - Status: 200
+Image Request sent at 13:18:33 - Status: 200
+Image Request sent at 13:18:33 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:34 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:35 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:36 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Duration of 5.0 seconds reached. Sent 60 requests.
+Not waiting for requests to complete. Total: 60 requests over 5.0 seconds
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:37 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:38 - Status: 200
+Image Request sent at 13:18:39 - Status: 200
+Image Request sent at 13:18:39 - Status: 200
+Image Request sent at 13:18:39 - Status: 200
+Image Request sent at 13:18:39 - Status: 200
+Image Request sent at 13:18:40 - Status: 200
+Image Request sent at 13:18:40 - Status: 200
+[418.006s] Stage 50/50: Setting request rate to 6 requests/second
+Sending 6 requests per second for 5.0 seconds
+Image Request sent at 13:18:40 - Status: 200
+Image Request sent at 13:18:41 - Status: 200
+Image Request sent at 13:18:41 - Status: 200
+Image Request sent at 13:18:41 - Status: 200
+Image Request sent at 13:18:41 - Status: 200
+Image Request sent at 13:18:42 - Status: 200
+Image Request sent at 13:18:42 - Status: 200
+Image Request sent at 13:18:42 - Status: 200
+Image Request sent at 13:18:42 - Status: 200
+Image Request sent at 13:18:42 - Status: 200
+Image Request sent at 13:18:43 - Status: 200
+Image Request sent at 13:18:43 - Status: 200
+Image Request sent at 13:18:43 - Status: 200
+Image Request sent at 13:18:43 - Status: 200
+Image Request sent at 13:18:43 - Status: 200
+Image Request sent at 13:18:44 - Status: 200
+Image Request sent at 13:18:44 - Status: 200
+Image Request sent at 13:18:44 - Status: 200
+Image Request sent at 13:18:44 - Status: 200
+Image Request sent at 13:18:44 - Status: 200
+Image Request sent at 13:18:45 - Status: 200
+Image Request sent at 13:18:45 - Status: 200
+Image Request sent at 13:18:45 - Status: 200
+Duration of 5.0 seconds reached. Sent 30 requests.
+Waiting for 60 in-flight requests to complete...
+Image Request sent at 13:18:45 - Status: 200
+Image Request sent at 13:18:45 - Status: 200
+Image Request sent at 13:18:45 - Status: 200
+Image Request sent at 13:18:46 - Status: 200
+Image Request sent at 13:18:46 - Status: 200
+Image Request sent at 13:18:46 - Status: 200
+Image Request sent at 13:18:47 - Status: 200
+All requests completed. Total: 30 requests over 5.0 seconds
+
+===== Latency Statistics =====
+Total Requests: 2640
+Average Latency: 1.659 seconds
+P90 Latency: 3.455 seconds
+P95 Latency: 3.803 seconds
+P99 Latency: 5.107 seconds
+Min Latency: 0.005 seconds
+Max Latency: 15.410 seconds
+Latency results saved to latency_results.json
+Request data saved to ./re/2-convnext//fastgshare-120-50-50-15.csv

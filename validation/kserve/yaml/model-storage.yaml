@@ -1,0 +1,27 @@
+# First, create a PersistentVolume that points to your host path
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: models-pv
+spec:
+  capacity:
+    storage: 27Gi
+  accessModes:
+    - ReadOnlyMany
+  persistentVolumeReclaimPolicy: Retain
+  hostPath:
+    path: "/models"
+
+---
+# Next, create a PersistentVolumeClaim to use this PV
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: models-pvc
+spec:
+  accessModes:
+    - ReadOnlyMany
+  resources:
+    requests:
+      storage: 27Gi
+  volumeName: models-pv

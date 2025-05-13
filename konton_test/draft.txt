@@ -1,0 +1,57 @@
+	// funcName := fstfunc.ObjectMeta.Name
+	klog.Infof("Checking FaSTFunc %s.", funcName)
+	// make a Prometheus query to get the RPS of the function
+	query := fmt.Sprintf("rate(gateway_function_invocation_total{function_name='%s.%s'}[10s])", funcName, fstfunc.ObjectMeta.Namespace)
+	klog.Infof("Prometheus Query: %s.", query)
+	queryRes, _, err := r.promv1api.Query(ctx, query, time.Now())
+	curRPS := float64(0.0)
+	if err != nil {
+		klog.Errorf("Error Failed to get RPS of function %s: %s.", funcName, err.Error())
+		continue
+	}
+
+	if queryRes.(model.Vector).Len() != 0 {
+		klog.Infof("Current rps vec for function %s is %v.", funcName, queryRes)
+		curRPS = float64(queryRes.(model.Vector)[0].Value)
+	}
+	klog.Infof("Current rps for function %s is %f.", funcName, curRPS)
+
+	// make a Prometheus query to get the RPS of past 30s
+	pastRPS := float64(0.0)
+	pastquery := fmt.Sprintf("rate(gateway_function_invocation_total{function_name='%s.%s'}[30s])", funcName, fstfunc.ObjectMeta.Namespace)
+	// klog.Infof("Prometheus Query: %s.", pastquery)
+	pastqueryVec, _, err := r.promv1api.Query(ctx, pastquery, time.Now())
+	if err != nil {
+		klog.Errorf("Error Failed to get past 30s RPS of function %s.", funcName)
+		continue
+	}
+	if pastqueryVec.(model.Vector).Len() != 0 {
+		klog.Infof("Past 30s rps vec for function %s is %v.", funcName, pastqueryVec)
+		pastRPS = float64(pastqueryVec.(model.Vector)[0].Value)
+	}
+	klog.Infof("Past 30s rps for function %s is %f.", funcName, pastRPS)
+
+	// make a Prometheus query to get the RPS of old 30s
+	oldRPS := float64(0.0)
+	oldTime := time.Now().Add(-30 * time.Second)
+	// klog.Infof("Prometheus Query: %s.", pastquery)
+	oldqueryVec, _, err := r.promv1api.Query(ctx, pastquery, oldTime)
+	if err != nil {
+		klog.Errorf("Error Failed to get old 30s RPS of function %s.", funcName)
+		continue
+	}
+	if oldqueryVec.(model.Vector).Len() != 0 {
+		klog.Infof("Old 30s rps vec for function %s is %v.", funcName, oldqueryVec)
+		oldRPS = float64(oldqueryVec.(model.Vector)[0].Value)
+	}
+	klog.Infof("Old 30s rps for function %s is %f.", funcName, oldRPS)
+
+	// desiredFastpods := r.getDesiredFastfuncSpec(&fstfunc, curRPS, pastRPS, oldRPS)
+	// if desiredFastpods == nil {
+	// 	continue
+	// }
+	// err = r.reconcileDesiredFaSTFunc(desiredFastpods)
+	// if err != nil {
+	// 	klog.Errorf("Error Cannot reconcile the desired FaSTFunc %s.", funcName)
+	// 	continue
+	// }

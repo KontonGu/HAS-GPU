@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- caps.in.tum_v1_fastfunc.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

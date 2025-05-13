@@ -1,0 +1,46 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "bert-server"
+spec:
+  predictor:
+    minReplicas: 1      # Optional: minimum replicas
+    maxReplicas: 2      # Maximum replicas
+    scaleTarget: 1
+    # scaleMetric: concurrency
+    containerConcurrency: 20
+    # model:
+    #   modelFormat:
+    #     name: pytorch
+    #   runtime: custom
+    containers:
+      - name: bert
+        image: leslie233/bert:fast-test
+        ports:
+          - containerPort: 8080
+        resources:
+          requests:
+            cpu: 5
+            memory: 10Gi
+          limits:
+            cpu: 20
+            memory: 30Gi
+        
+        volumeMounts:
+          - name: "model-volume"
+            mountPath: "/models/"
+    #     # Optional: you can specify environment variables if needed
+    #     #env:
+    #       # - name: MODEL_NAME
+    #       #   value: "my-model"
+    #     # Optional: set ports if your container uses non-default ports
+    #     # ports:
+    #     #   - containerPort: 8080
+    # volumes:
+    #   - name: "model-volume"
+    #     hostPath:
+    #       path: "/models/"
+    volumes:
+      - name: "model-volume"
+        persistentVolumeClaim:
+          claimName: models-pvc

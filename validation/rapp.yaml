@@ -1,0 +1,42 @@
+apiVersion: caps.in.tum.fastgshare/v1
+kind: FaSTFunc
+metadata:
+  labels:
+    app.kubernetes.io/name: fastfunc
+    app.kubernetes.io/instance: fastfunc-sample
+    app.kubernetes.io/part-of: scheduler
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: scheduler
+    fast_function: rapp
+  name: rapp
+  namespace: fast-gshare-fn
+spec:
+  selector:
+    matchLabels:
+      #fast_function: has-func-resnet50
+
+  podSpec:
+    containers:
+    - name: rapp
+      #image: kontonpuku666/rapp:release
+      image: docker.io/leslie233/rapp:test
+      ports:
+        - containerPort: 8080
+      readinessProbe:
+       tcpSocket:
+         port: 8080
+       initialDelaySeconds: 3
+       periodSeconds: 1
+      #command: ["/bin/bash", "-c", "sleep 7200"]
+      #command: ["python3", "./server/server_fixed.py"]
+      command: ["/bin/bash", "-c", "cd ./server && python server_fixed.py"]
+      # env:
+      #   - name: CUDA_MPS_ACTIVE_THREAD_PERCENTAGE
+      #     value: "60"
+      # ports:
+      # - containerPort: 5000
+      #   hostPort: 5000
+    volumes:
+    - name: "model-volume"
+      hostPath:
+        path: "/models/"

@@ -1,0 +1,9 @@
+apiVersion: caps.in.tum.fastgshare/v1
+kind: FaSTFunc
+metadata:
+  labels:
+    app.kubernetes.io/name: fast-gshare-autoscaler
+    app.kubernetes.io/managed-by: kustomize
+  name: fastfunc-sample
+spec:
+  # TODO(user): Add fields here

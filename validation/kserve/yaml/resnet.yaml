@@ -1,0 +1,49 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "resnet-server"
+spec:
+  predictor:
+    minReplicas: 1
+    maxReplicas: 2
+    scaleTarget: 1
+    #scaleMetric: concurrency
+    containerConcurrency: 15
+    # model:
+    #   modelFormat:
+    #     name: pytorch
+    #   runtime: custom
+    containers:
+      - name: resnet50
+        image: leslie233/resnet:fast-test
+        ports:
+          - containerPort: 8080
+        # resources:
+        #   requests:
+        #     cpu: 100m
+        #     memory: 512Mi
+        #   limits:
+        #     cpu: 1
+        #     memory: 1Gi
+        
+        volumeMounts:
+          - name: "model-volume"
+            mountPath: "/models/"
+        env:
+          - name: HAS_GPU_BATCH_SIZE
+            value: "4"
+    #     # Optional: you can specify environment variables if needed
+    #     #env:
+    #       # - name: MODEL_NAME
+    #       #   value: "my-model"
+    #     # Optional: set ports if your container uses non-default ports
+    #     # ports:
+    #     #   - containerPort: 8080
+    # volumes:
+    #   - name: "model-volume"
+    #     hostPath:
+    #       path: "/models/"
+    volumes:
+      - name: "model-volume"
+        persistentVolumeClaim:
+          claimName: models-pvc

@@ -1,0 +1,27 @@
+# permissions for end users to edit fastfuncs.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: fast-gshare-autoscaler
+    app.kubernetes.io/managed-by: kustomize
+  name: fastfunc-editor-role
+rules:
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs/status
+  verbs:
+  - get

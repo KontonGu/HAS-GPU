@@ -1,0 +1,23 @@
+# permissions for end users to view fastfuncs.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: fast-gshare-autoscaler
+    app.kubernetes.io/managed-by: kustomize
+  name: fastfunc-viewer-role
+rules:
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - caps.in.tum.fastgshare
+  resources:
+  - fastfuncs/status
+  verbs:
+  - get
