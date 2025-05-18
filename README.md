@@ -12,7 +12,7 @@
 - Kubernetes 1.32.1;
 
 
-## Getting Started Guide
+## Getting Started Guide (for Artifact Evaluation)
 The artifact consists of four components: (Part-1) direct deployment of HAS-GPU, (Part 2) deployment of other systems for comparison experiments, (Part 3) the RaPP module, and (Part 4) a full from-scratch build of the HAS-GPU's hybrid auto-scaler.
 
 Part-1 includes all scripts and procedures required to deploy the complete HAS-GPU system. Please follow the instructions and specified software versions carefully when installing the Ubuntu operating system, setting up the Kubernetes (K8s) environment, configuring NVIDIA GPU infrastructure for cloud usage, and installing other required software and dependencies.
