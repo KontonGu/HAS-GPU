@@ -44,6 +44,10 @@ $ sudo systemctl restart containerd
     ```
     $ kubectl create -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/v0.13.0/nvidia-device-plugin.yml
     ```
+    Install Helm:
+    ```
+    $ bash install_helm.sh
+    ```
     Get the woker node join command (will be used in worker node configuration to join the master node):
     ```
     $ kubeadm token create --print-join-command
