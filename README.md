@@ -23,7 +23,7 @@ Part-2 provides the deployment configurations for two baseline systems used in t
 
 Part 4 describes how to build the HAS-GPU auto-scaler from scratch. This step is optional and may be skipped.
 
-All experiments were conducted on the Compute Cloud GPU cluster at LRZ (The Leibniz Supercomputing Centre). Due to the complexity of the HAS-GPU system, please feel free to contact us via email if needed. We can provide access to a smaller testing cluster and further support to facilitate system validation and help resolve potential issues.
+All experiments were conducted on the Compute Cloud GPU cluster at LRZ (The Leibniz Supercomputing Centre).
 
 
 ## Step-by-Step Instructions
